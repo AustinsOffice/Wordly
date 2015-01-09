@@ -1,0 +1,59 @@
+/* Layout Styles and General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { font-family: sans-serif; color: #313131; }
+
+.wrap {
+    margin: 0 auto;
+    width: 75%;
+    max-width: 500px;
+}
+
+.module { margin: .5em 0; }
+
+small {
+    font-size: 50%;
+    color: #969696;
+    font-weight: 400;
+}
+
+/* BUTTON STYLES */
+.button, .button-modify {
+    text-shadow: 2px 2px 0 rgba(47, 47, 47, 0.68);
+    background-image: linear-gradient(#649cba, #53829b);
+    box-shadow: 2px 2px 0 #959595;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #3b5765;
+    padding: .65em 0;
+    width: 100%;
+    color: #fff;
+}
+
+.button:hover {
+    background-image: linear-gradient(#6da1be, #6090aa);
+    cursor:pointer;
+}
+
+.button:active { background-image: linear-gradient(#6090aa, #6da1be); }
+
+/* Content and Form */ 
+#type, #type-modify {
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    width: 100%;
+    background: #ced8dd;
+    color: #405c6a;
+}
+
+#the-word { width: 100%; text-align: center; }
+
+#words-textarea {
+    min-height: 150px;
+    width: 100%;
+}
